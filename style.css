@@ -1,0 +1,117 @@
+:root {
+  /* Color */
+
+  --color-primary: hsl(75, 94%, 57%);
+  --color-white: hsl(0, 0%, 100%);
+
+  --color-grey-1: hsl(0, 0%, 20%);
+  --color-grey-2: hsl(0, 0%, 12%);
+  --color-grey-3: hsl(0, 0%, 8%);
+
+  /* Font */
+
+  --paragraph-small: 1.4rem;
+  --header-medium: 2.6rem;
+
+  /* Margin */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: var(--paragraph-small);
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.container {
+  height: 100vh;
+  background-color: var(--color-grey-3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-component {
+  background-color: var(--color-grey-2);
+  padding: 3.2rem;
+  border-radius: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+.social-component__image {
+  height: 7.2rem;
+  width: 7.2rem;
+  border-radius: 50%;
+  margin-bottom: 1.6rem;
+}
+.header-primary {
+  color: var(--color-white);
+  font-size: var(--header-medium);
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  margin-bottom: 0.8rem;
+}
+.social-component__location {
+  color: var(--color-primary);
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+}
+.social-component__quote {
+  color: var(--color-white);
+  font-size: var(--paragraph-small);
+  margin-bottom: 1.6rem;
+  font-weight: 400;
+}
+.social-component__nav {
+  list-style: none;
+  width: 30rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.social-component__link {
+  display: block;
+  text-align: center;
+  padding: 1.2rem 2.4rem;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-size: var(--paragraph-small);
+  font-weight: 700;
+  background-color: var(--color-grey-1);
+  border-radius: 1rem;
+}
+
+.social-component__link:link,
+.social-component__link:visited {
+  color: var(--color-white);
+}
+
+.social-component__link:hover,
+.social-component__link:active {
+  color: var(--color-grey-3);
+  background-color: var(--color-primary);
+}
+
+@media only screen and (max-width: 23.4em) {
+  .social-component {
+    padding: 1.6rem;
+  }
+}

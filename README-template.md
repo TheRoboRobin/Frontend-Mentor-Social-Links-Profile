@@ -12,9 +12,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -28,14 +26,18 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Screenshot of Finished Project](/assets/images/screenshot.PNG)
 
 ### Links
 
 - Solution URL: [Frontendmentor](https://www.frontendmentor.io/solutions/qr-code-component-kSY9L23vv9)
-- Live Site URL: [Github](https://theroborobin.github.io/frontend-mentor-blog-preview-card/)
+- Live Site URL: [Github](https://github.com/TheRoboRobin/Frontend-Mentor-Social-Links-Profile)
 
 ## My process
+
+After building the structure of the component and styling the basic elements, I got to a point where I was having trouble aligning the buttons. But after looking things over, my issue was that I had displayed the buttons as inline-blocks and not just blocks. When I fixed that, the buttons stretched to full.
+
+After that, minor visual adjustments and a media query to fix the padding on mobile.
 
 ### Built with
 
@@ -45,31 +47,11 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
+For this, its just mainly repetition. I need to get practice and make it feel second nature.
 
 ### Continued development
 
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+I'd like to bump the complexity a little bit. But looking forward, I need to work on solidifying this knowledge so that I know it off the top of my head and not needing to reference my notes as much. I'm getting there but it'll still take time.
 
 ## Author
 
